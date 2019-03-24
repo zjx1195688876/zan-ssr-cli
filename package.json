@@ -1,0 +1,32 @@
+{
+  "name": "zan-ssr-cli",
+  "version": "1.0.0",
+  "description": "cli for create a ssr project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "zan-ssr": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjx1195688876/zan-ssr-cli.git"
+  },
+  "keywords": [
+    "ssr",
+    "cli"
+  ],
+  "author": "zhangjinxin <15757116071@163.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjx1195688876/zan-ssr-cli/issues"
+  },
+  "homepage": "https://github.com/zjx1195688876/zan-ssr-cli#readme",
+  "dependencies": {
+    "colors-cli": "^1.0.21",
+    "commander": "^2.19.0",
+    "git-clone-promise": "^1.0.0",
+    "shelljs": "^0.8.3"
+  }
+}
