@@ -7,9 +7,12 @@ npm i -g zan-ssr-cli
 
 ## 查看cli版本
 ```
-zan-ssr --version
-或
-zan-ssr -V
+zan-ssr --version(-V)
+```
+
+## 查看cli帮助文档
+```
+zan-ssr --help(-h)
 ```
 
 ## 创建ssr工程模版：
