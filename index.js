@@ -17,8 +17,8 @@ program
     let localpath = path.join(pwd.toString(), projectName);
     const { type } = options;
     const PROJECT = {
-      simple: 'git@github.com:zjx1195688876/Chrome.git',
-      muti: 'git@github.com:zjx1195688876/universal_app.git'
+      simple: 'git@github.com:zjx1195688876/astroboy-ssr-simple.git',
+      muti: 'git@github.com:zjx1195688876/astroboy-ssr-muti-extend.git'
     };
     console.log(color.yellow('创建模版中，请稍后...'));
     clone(PROJECT[type], localpath).then(res => {
